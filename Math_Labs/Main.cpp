@@ -15,5 +15,7 @@ int main()
 	method_3();
 	method_4();
 	method_5();
-
+	method_6();
+	method_7();
+	method_8();
 }

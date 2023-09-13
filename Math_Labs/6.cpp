@@ -7,35 +7,10 @@
 using namespace std;
 
 
-double f(double x)
-{
-	return pow(x, 3) / (4 * pow(x, 4) + 10);
-}
-
-
-double halfrectangle_integral(double a, double b, int n, double otvet)
-{
-	double x, result;
-	double sum = 0;
-	double width = (b - a) / n;
-	for (int i = 0; i < n; i++)
-	{
-		x = a + (i + 0.5) * width;
-		sum += f(x);
-	}
-	result = sum * width;
-	cout << "n = " << n << "\t Примерно: " << result << "\t Погрешность: " <<
-		abs(result - otvet) << '\n';
-	return result;
-}
-
-
 
 void method_6()
 {
-	setlocale(LC_ALL, "Russian");
-	/* Метод прямоугольников -------------------------------------------------------
-   ------------------*/
+	cout << "Метод прямоугольника\n\n";
 	double a, b;
 	double s, s0;
 	int n;
@@ -56,6 +31,6 @@ void method_6()
 		i += 1;
 		s = halfrectangle_integral(a, b, n, otvet);
 	} while (abs(s - s0) > p);
-	//
+
 	cout << "\nИнтеграл: " << "0.49736421" << endl;
 }
