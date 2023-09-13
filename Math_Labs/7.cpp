@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// lab 7 
+// lab 7 Требуется ИНФА
 
 void method_7()
 {
