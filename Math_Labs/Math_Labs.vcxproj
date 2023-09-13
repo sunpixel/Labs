@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="1.cpp" />
     <ClCompile Include="2.cpp" />
+    <ClCompile Include="3.cpp" />
+    <ClCompile Include="4.cpp" />
+    <ClCompile Include="5.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="Lab_1.cpp" />
     <ClCompile Include="Main.cpp" />

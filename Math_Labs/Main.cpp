@@ -1,8 +1,4 @@
-#include <vector>
 #include <iostream>
-#include <string>
-#include <locale.h>
-#include <cmath>
 #include "deffinitions.h"
 
 
