@@ -3,15 +3,17 @@
 #include <string>
 #include <locale.h>
 #include <cmath>
+#include "deffinitions.h"
 
-#include "1.cpp"
 
 using namespace std;
 
 
+
 int main()
 {
+	setlocale(LC_ALL, "Russian");
 
-	run_1();
+	method_2();
 
 }

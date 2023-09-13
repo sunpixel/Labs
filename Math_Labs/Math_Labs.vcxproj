@@ -129,8 +129,12 @@
   <ItemGroup>
     <ClCompile Include="1.cpp" />
     <ClCompile Include="2.cpp" />
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="Lab_1.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deffinitions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

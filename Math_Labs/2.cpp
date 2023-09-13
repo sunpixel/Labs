@@ -4,19 +4,18 @@
 #include <locale.h>
 #include <cmath>
 
+#include "deffinitions.h";
+
+
+
 using namespace std;
 
 
 
-double f(double x)   //x * e^ x = 1;
+void method_2()
 {
-    return x * exp(x) - 1;
-}
+    cout << "Метод хорд\n\n";
 
-
-
-void method()
-{
     int i = 0;
     double c;
     double a = 0; double b = 0; double p = 0;

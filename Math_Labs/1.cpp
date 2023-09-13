@@ -4,19 +4,17 @@
 #include <locale.h>
 #include <cmath>
 
+#include "deffinitions.h";
+
+
+
 using namespace std;
-
-
-
-double f(double x)   //x * e^ x = 1;
-{
-    return x * exp(x) - 1;
-}
 
 
 
 void method_1()
 {
+    cout << "Метод дихотомии\n\n";
     bool bul = true;
     int i = 0;
     double c, res;
@@ -53,8 +51,3 @@ void method_1()
     }
     cout << "x примерно равен " << c << " с точностью " << p << ". \nКоличество итераций: " << i << '\n';
 }
-
-
-
-
-void run_1() { cout << "Метод Дихотомии\n", method_1(); }
