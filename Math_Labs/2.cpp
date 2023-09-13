@@ -12,8 +12,11 @@ using namespace std;
 
 
 
+// lab 3
+
 void method_2()
 {
+    cout << "\n-------------------------\n";
     cout << "Метод хорд\n\n";
 
     int i = 0;

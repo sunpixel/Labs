@@ -6,11 +6,13 @@
 
 using namespace std;
 
+// lab 4
 
 
 void method_5()
 {
-	setlocale(LC_ALL, "Russian");
+	cout << "\n-------------------------\n";
+	cout << "Лабараторная работа 4\n\n";	// Простые итерации для системы уравнений или метод Гауса
 	double x0 = 0, y0 = 0, x, y;
 	const double p = 0.001;
 	do
@@ -21,5 +23,5 @@ void method_5()
 		x0 = x;
 	} while (abs(x - x0) > p && abs(y - y0) > p);
 
-	cout << "Ответ: (" << x << ", " << y << ')';
+	cout << "Ответ: ~ (" << x << ", " << y << ')';
 }

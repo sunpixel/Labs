@@ -12,9 +12,12 @@ using namespace std;
 
 
 
+// lab 2
+
 void method_4()
 {
-    cout << "Метод Хорд\n\n";
+    cout << "\n-------------------------\n";
+    cout << "Метод простой итерации\n\n";
 
     long double x0 = 0;
     long double x, p;

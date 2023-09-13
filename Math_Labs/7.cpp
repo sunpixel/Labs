@@ -6,10 +6,11 @@
 
 using namespace std;
 
-
+// lab 7 
 
 void method_7()
 {
+	cout << "\n-------------------------\n";
 	cout << "Метод трапеций\n\n";
 	double a, b;
 	double s, s0;

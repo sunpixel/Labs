@@ -11,8 +11,11 @@
 using namespace std;
 
 
+//lab 3
+
 void method_3()
 {
+    cout << "\n-------------------------\n";
     cout << "Метод Ньютона\n\n";
 
     int i;

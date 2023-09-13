@@ -10,7 +10,7 @@
 
 using namespace std;
 
-
+// lab 2
 
 void method_1()
 {
