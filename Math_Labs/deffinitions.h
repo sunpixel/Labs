@@ -1,9 +1,11 @@
 #pragma once
 
-
+// 1-4
 double f(double x);
 
 double f1(double y);
+
+// 5
 
 double fi1(double z);
 
