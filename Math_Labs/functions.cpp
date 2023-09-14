@@ -7,12 +7,13 @@
 
 double f(double x)   //x * e^ x = 1;
 {
-    return x * exp(x) - 1;
+	return x + log(x) - 0.5;
 }
 
 double f1(double x)   // Первая производная (x + 1) * e ^ x = 0;
 {
-    return (x + 1) * exp(x);
+	return 1 / (log(10) *x) + 1;
+   
 }
 
 

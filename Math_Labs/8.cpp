@@ -32,5 +32,6 @@ void method_8()
 		i += 1;
 		s = simpson_integral(a, b, n, otvet);
 	} while (abs(s - s0) > p);
+
 	cout << "\nИнтеграл: " << otvet << endl;
 }
