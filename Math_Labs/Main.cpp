@@ -10,6 +10,8 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
+	cout << "Вариант 3 -> x * e^ x = 1\n\n";
+
 	method_1();
 	method_2();
 	method_3();
