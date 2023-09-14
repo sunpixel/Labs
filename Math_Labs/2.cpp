@@ -19,11 +19,11 @@ void method_2()
     cout << "\n-------------------------\n";
     cout << "ћетод хорд\n\n";
 
-    int i = 0;
-    double c;
-    double a = 0; double b = 0; double p = 0;
+    int i = 0;  // колличество итераций
+    double c;   // ¬ыбираема€ точка
+    double a = 0; double b = 0; double p = 0;   // начало отрезка / конец отрезка / точность
 
-    while (b <= a)
+    while (b <= a)  
     {
         cout << "¬ведите начало отрезка: ";
         cin >> a;
@@ -42,10 +42,12 @@ void method_2()
     }
 
     c = a - (b - a) / (f(b) - f(a)) * f(a);
+
     while (true)
     {
         if (f(a) * f(c) < 0)
             b = c;
+
         else if (f(b) * f(c) < 0)
             a = c;
 
