@@ -31,13 +31,16 @@ double fi2(double y)
 }
 
 
-// 6.cpp
+// 6.cpp 
+
+// Must be redone to match the passing criteriea
 
 double f6(double x)
 {
 	return pow(x, 3) / (4 * pow(x, 4) + 10);
 }
 
+// More functions are needed to pass review
 
 double halfrectangle_integral(double a, double b, int n, double otvet)
 {
@@ -56,14 +59,15 @@ double halfrectangle_integral(double a, double b, int n, double otvet)
 }
 
 
-
-// 7.cpp
+	
+// 7.cpp	need edit
 
 double f7(double x)
 {
 	return pow(x, 3) / (4 * pow(x, 4) + 10);
 }
 
+// f7 More functions are required to get the passing grade
 
 double trap_integral(double a, double b, int n, double otvet)
 {
@@ -84,11 +88,14 @@ double trap_integral(double a, double b, int n, double otvet)
 
 // 8.cpp
 
+// Needs change in order to work with correct variant
+
 double f8(double x)
 {
 	return pow(x, 3) / (4 * pow(x, 4) + 10);
 }
 
+// More functions are needed to check how fast it is.
 
 double simpson_integral(double a, double b, int n, double otvet)
 {
