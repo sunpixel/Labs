@@ -20,9 +20,6 @@ int main()
 	method_6();
 	method_7();
 	method_8();
-
-
-	std::cout << "Hello world";
 }
 
 
