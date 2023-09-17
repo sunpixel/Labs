@@ -8,6 +8,7 @@ using namespace std;
 
 // lab 4
 
+// Параметры изначально заданы
 
 void method_5()
 {

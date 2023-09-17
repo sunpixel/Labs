@@ -21,13 +21,13 @@ double f1(double x)   // Первая производная (x + 1) * e ^ x = 0;
 
 double fi1(double x)
 {
-	return 0.5 - cos(x - 1);
+	return 1.3 - sin(x - 1);
 }
 
 
 double fi2(double y)
 {
-	return 3 + cos(y);
+	return 0.8 + sin(y + 1);
 }
 
 
