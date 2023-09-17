@@ -12,10 +12,10 @@ int main()
 
 	cout << "Вариант 3 -> x * e^ x = 1\n\n";
 
-	method_1();
-	method_2();
-	method_3();
-	method_4();
+	//method_1();
+	//method_2();
+	//method_3();
+	//method_4();
 	method_5();
 	method_6();
 	method_7();
