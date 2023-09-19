@@ -64,7 +64,7 @@ double halfrectangle_integral(double a, double b, int n, double otvet)
 
 double f7(double x)
 {
-	return pow(x, 3) / (4 * pow(x, 4) + 10);
+	return sin(x) / (1 + cos(x));
 }
 
 // f7 More functions are required to get the passing grade

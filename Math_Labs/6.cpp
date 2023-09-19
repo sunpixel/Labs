@@ -17,7 +17,7 @@ void method_6()
 	int n;
 	int i = 0;
 	const double p = 0.001;
-	const double otvet = 0.49736421;
+	const double otvet = 0.693147;
 	cout << "¬ведите левую границу интегрировани€: ";
 	cin >> a;
 	cout << "¬ведите правую границу интегрировани€: ";
