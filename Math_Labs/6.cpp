@@ -24,11 +24,11 @@ void method_6()
 	cin >> b;
 	cout << "Введите n: ";
 	cin >> n;
-	s = halfrectangle_integral(a, b, n, otvet); //первое приближение для интеграла
+	s = halfrectangle_integral(a, b, n, otvet); //первое приближение для интеграла	/ Выбираем центральную точку на стороне прямоугольника
 	do
 	{
 		s0 = s;
-		n = 2 * n;
+		n = 2 * n;								// Для точности
 		i += 1;
 		s = halfrectangle_integral(a, b, n, otvet);
 	} while (abs(s - s0) > p);

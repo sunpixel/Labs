@@ -6,10 +6,11 @@
 
 using namespace std;
 
-// lab 7 Требуется ИНФА
+// lab 7 
 
 void method_7()
 {
+	// formula to calculate AREA is (a+b) / 2 * h 
 	cout << "\n-------------------------\n";
 	cout << "Метод трапеций\n\n";
 	double a, b;

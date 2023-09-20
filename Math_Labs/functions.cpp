@@ -51,10 +51,11 @@ double halfrectangle_integral(double a, double b, int n, double otvet)
 	{
 		x = a + (i + 0.5) * width;
 		sum += f6(x);
+		std::cout << "i = " << i << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum - otvet) << '\n';
 	}
 	result = sum * width;
-	std::cout << "n = " << n << "\t Примерно: " << result << "\t Погрешность: " <<
-		abs(result - otvet) << '\n';
+	std::cout << "n = " << n << "\t Примерно: " << result << "\t Погрешность: " << abs(result - otvet) << '\n';
+	std::cout << "\n\n##############################\n\n";
 	return result;
 }
 
@@ -81,8 +82,8 @@ double trap_integral(double a, double b, int n, double otvet)
 		sum += 0.5 * width * (f7(x0) + f7(x));
 		std::cout << "i = " << i << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum - otvet) << '\n';
 	}
-	std::cout << "\n\n------------------------------------";
 	std::cout << "n = " << n << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum  - otvet) << '\n';
+	std::cout << "\n\n##############################\n\n";
 	return sum;
 }
 
@@ -108,8 +109,9 @@ double simpson_integral(double a, double b, int n, double otvet)
 		x0 = a + i * width;
 		x = a + (i + 1) * width;
 		sum += width / 6 * (f8(x0) + 4 * f8(0.5 * (x0 + x)) + f8(x));
+		std::cout << "i = " << i << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum - otvet) << '\n';
 	}
-	std::cout << "n = " << n << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum -
-		otvet) << '\n';
+	std::cout << "n = " << n << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum - otvet) << '\n';
+	std::cout << "\n\n##############################\n\n";
 	return sum;
 }
