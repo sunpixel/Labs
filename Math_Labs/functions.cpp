@@ -37,7 +37,7 @@ double fi2(double y)
 
 double f6(double x)
 {
-	return pow(x, 3) / (4 * pow(x, 4) + 10);
+	return sin(x) / (1 + cos(x));
 }
 
 // More functions are needed to pass review
@@ -73,15 +73,16 @@ double trap_integral(double a, double b, int n, double otvet)
 {
 	double x, x0;
 	double sum = 0;
-	double width = (b - a) / n;
+	double width = (b - a) / n;		// gets equal width
 	for (int i = 0; i < n; i++)
 	{
 		x0 = a + i * width;
 		x = a + (i + 1) * width;
 		sum += 0.5 * width * (f7(x0) + f7(x));
+		std::cout << "i = " << i << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum - otvet) << '\n';
 	}
-	std::cout << "n = " << n << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum -
-		otvet) << '\n';
+	std::cout << "\n\n------------------------------------";
+	std::cout << "n = " << n << "\t Примерно: " << sum << "\t Погрешность: " << abs(sum  - otvet) << '\n';
 	return sum;
 }
 

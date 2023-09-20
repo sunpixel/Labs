@@ -33,5 +33,5 @@ void method_6()
 		s = halfrectangle_integral(a, b, n, otvet);
 	} while (abs(s - s0) > p);
 
-	cout << "\nÈíòåãðàë: " << "0.49736421" << endl;
+	cout << "\nÈíòåãðàë: " << otvet << endl;
 }
