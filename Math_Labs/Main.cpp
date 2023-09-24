@@ -4,8 +4,6 @@
 
 using namespace std;
 
-void choice();
-
 int main()
 {
 	setlocale(LC_ALL, "Russian");

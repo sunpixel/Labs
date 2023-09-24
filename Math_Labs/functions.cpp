@@ -7,7 +7,7 @@
 
 double f(double x)
 {
-	return 2 * sin(x - 0.6) - 1.5 + x;
+	return 2 * sin(x - 0.6) - 1.5 + x;		// exist between 0 and 1
 }
 
 double f1(double x)
@@ -41,7 +41,7 @@ double f6(double x)
 
 
 
-double halfrectangle_integral(double a = 0.785, double b = 1.57, int n, double otvet)
+double halfrectangle_integral(double a = 0.785, double b = 1.57, int n = 10, double otvet = 0.3465735902799726547086160607290882840377500671801276270603400047)
 {
 	double x, result;
 	double sum = 0;
@@ -69,7 +69,7 @@ double f7(double x)
 
 
 
-double trap_integral(double a = 0.785, double b = 1.57, int n, double otvet)
+double trap_integral(double a = 0.785, double b = 1.57, int n = 10, double otvet = 0.3465735902799726547086160607290882840377500671801276270603400047)
 {
 	double x, x0;
 	double sum = 0;
@@ -97,7 +97,7 @@ double f8(double x)
 
 
 
-double simpson_integral(double a = 0.785, double b = 1.57, int n, double otvet)
+double simpson_integral(double a = 0.785, double b = 1.57, int n = 10, double otvet = 0.3465735902799726547086160607290882840377500671801276270603400047)
 {
 	double x, x0;
 	double sum = 0;
