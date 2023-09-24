@@ -12,7 +12,7 @@ using namespace std;
 
 
 
-// lab 2    Требуется ИНФА
+// lab 2
 
 void method_4()
 {

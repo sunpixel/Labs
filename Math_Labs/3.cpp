@@ -32,7 +32,7 @@ void method_3()
 
     while (true)
     {
-        x = x0 - f(x0) / f1(x0);
+        x = x0 - f(x0) / f1(x0);    // Formula to calculate the next position of X
         i++;
         if (f(x - p) * f(x + p) < 0) break;
         x0 = x;

@@ -10,12 +10,15 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	cout << "Вариант 1\n\n";
+	cout << "Вариант 12\n\n";
 
 	//method_1();
 	//method_2();
 	//method_3();
 	//method_4();
+
+	// Working correctly
+
 	method_5();
 	method_6();
 	method_7();

@@ -7,12 +7,12 @@
 
 double f(double x)   //x * e^ x = 1;
 {
-	return x + log(x) - 0.5;
+	return 2 * sin(x - 0.6) - 1.5 + x;
 }
 
 double f1(double x)   // Первая производная (x + 1) * e ^ x = 0;
 {
-	return 1 / (log(10) * x) + 1;
+	return 2 * cos(x- 3/5) + 1;
    
 }
 
@@ -21,13 +21,13 @@ double f1(double x)   // Первая производная (x + 1) * e ^ x = 0;
 
 double fi1(double x)	// Calculating y
 {
-	return 1.3 - sin(x - 1);
+	return -0.4 - sin(x);
 }
 
 
 double fi2(double y)	// Calculating x
 {
-	return 0.8 + sin(y + 1);
+	return cos(y + 1) / 2;
 }
 
 
