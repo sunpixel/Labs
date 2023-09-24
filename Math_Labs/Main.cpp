@@ -12,13 +12,10 @@ int main()
 
 	cout << "Вариант 12\n\n";
 
-	//method_1();
-	//method_2();
-	//method_3();
-	//method_4();
-
-	// Working correctly
-
+	method_1();
+	method_2();
+	method_3();
+	method_4();
 	method_5();
 	method_6();
 	method_7();
