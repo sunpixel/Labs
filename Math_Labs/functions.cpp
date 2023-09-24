@@ -41,7 +41,7 @@ double f6(double x)
 
 
 
-double halfrectangle_integral(double a, double b, int n, double otvet)
+double halfrectangle_integral(double a = 0.785, double b = 1.57, int n, double otvet)
 {
 	double x, result;
 	double sum = 0;
@@ -69,7 +69,7 @@ double f7(double x)
 
 
 
-double trap_integral(double a, double b, int n, double otvet)
+double trap_integral(double a = 0.785, double b = 1.57, int n, double otvet)
 {
 	double x, x0;
 	double sum = 0;
@@ -97,7 +97,7 @@ double f8(double x)
 
 
 
-double simpson_integral(double a, double b, int n, double otvet)
+double simpson_integral(double a = 0.785, double b = 1.57, int n, double otvet)
 {
 	double x, x0;
 	double sum = 0;

@@ -18,7 +18,7 @@ void method_7()
 	int n;
 	int i = 0;
 	const double p = 0.001;				// Precision is a pre-set variable
-	const double otvet = 0.693147;		// Answer is correct
+	const double otvet = 0.3465735902799726547086160607290882840377500671801276270603400047;		// Answer is correct
 	cout << "¬ведите левую границу интегрировани€: ";
 	cin >> a;
 	cout << "¬ведите правую границу интегрировани€: ";
