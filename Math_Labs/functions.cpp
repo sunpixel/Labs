@@ -5,12 +5,12 @@
 
 // 1-4.cpp
 
-double f(double x)   //x * e^ x = 1;
+double f(double x)
 {
 	return 2 * sin(x - 0.6) - 1.5 + x;
 }
 
-double f1(double x)   // Первая производная (x + 1) * e ^ x = 0;
+double f1(double x)
 {
 	return 2 * cos(x- 3/5) + 1;
    
@@ -33,14 +33,13 @@ double fi2(double y)	// Calculating x
 
 // 6.cpp 
 
-// Must be redone to match the passing criteriea
 
 double f6(double x)
 {
-	return sin(x) / (1 + cos(x));
+	return 1 / tan(x);
 }
 
-// More functions are needed to pass review
+
 
 double halfrectangle_integral(double a, double b, int n, double otvet)
 {
@@ -61,14 +60,14 @@ double halfrectangle_integral(double a, double b, int n, double otvet)
 
 
 	
-// 7.cpp	need edit
+// 7.cpp
 
 double f7(double x)
 {
-	return sin(x) / (1 + cos(x));
+	return 1 / tan(x);
 }
 
-// f7 More functions are required to get the passing grade
+
 
 double trap_integral(double a, double b, int n, double otvet)
 {
@@ -90,14 +89,13 @@ double trap_integral(double a, double b, int n, double otvet)
 
 // 8.cpp
 
-// Needs change in order to work with correct variant
 
 double f8(double x)
 {
-	return pow(x, 3) / (4 * pow(x, 4) + 10);
+	return 1 / tan(x);
 }
 
-// More functions are needed to check how fast it is.
+
 
 double simpson_integral(double a, double b, int n, double otvet)
 {
